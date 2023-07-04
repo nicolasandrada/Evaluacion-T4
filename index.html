@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo.jpeg" alt="">
+            <div>
+                <h1>Pedido</h1>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="">Tienda</a></li>
+                <li><a href="">Pedido por Mayor</a></li>
+                <li><a href="">Sobre nosotros
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <div>
+                <h3>Nombre</h3>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <div>
+                <h3>Direccion</h3>
+                <input type="text" name="direccion" id="direccion">
+            </div>
+
+            <div>
+                <h3>Localidad</h3>
+                <select name="localidad" id="localidad">
+                    <option value="Virrey del pino">Virrey del pino</option>
+                    <option value="Gonzalez Catan">Gonzalez Catan</option>
+                    <option value="Laferrere">Laferrere</option>
+                    <option value="Isidro Casanova">Isidro Casanova</option>
+                </select>
+            </div>
+
+            <div>
+                <h3>Tipo de Cliente</h3>
+                <select name="tipo" id="tipo">
+                    <option value="Consumidor Final">Consumidor Final</option>
+                    <option value="Responzable Inscripto">Responzable Inscripto</option>
+                    <option value="Monotibutriste">Monotibutriste</option>
+                </select>
+            </div>
+
+            <div class="Tareas">
+                <h3>Tareas</h3>
+                <div>
+                    <label for="jordan">Jordan</label>
+                    <input type="number" name="tarea[]" id="jordan">
+                </div>
+                
+                <div>
+                    <label for="ardidas">Ardidas</label>
+                    <input type="number" name="tarea[]" id="ardidas">
+                </div>
+                
+                <div>
+                    <label for="naiki">Naiki</label>
+                    <input type="number" name="tarea[]" id="naiki">
+                </div>
+                
+            </div>
+
+            <div>
+                <input type="button" value="Calcular" id="calcular">
+            </div>
+
+        </form>   
+
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
