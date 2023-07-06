@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="css/reset.css">
+
     <link rel="stylesheet" href="css/estilo.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="logo">
             <img src="img/logo.jpeg" alt="">
             <div>
                 <h1>Pedido</h1>
@@ -38,7 +38,6 @@
                 <h3>Direccion</h3>
                 <input type="text" name="direccion" id="direccion">
             </div>
-
             <div>
                 <h3>Localidad</h3>
                 <select name="localidad" id="localidad">
@@ -48,7 +47,6 @@
                     <option value="Isidro Casanova">Isidro Casanova</option>
                 </select>
             </div>
-
             <div>
                 <h3>Tipo de Cliente</h3>
                 <select name="tipo" id="tipo">
@@ -57,7 +55,6 @@
                     <option value="Monotibutriste">Monotibutriste</option>
                 </select>
             </div>
-
             <div class="Tareas">
                 <h3>Tareas</h3>
                 <div>
@@ -69,20 +66,16 @@
                     <label for="ardidas">Ardidas</label>
                     <input type="number" name="tarea[]" id="ardidas">
                 </div>
-                
                 <div>
                     <label for="naiki">Naiki</label>
                     <input type="number" name="tarea[]" id="naiki">
                 </div>
-                
             </div>
-
-            <div>
+    
+            <div class="calcular">
                 <input type="button" value="Calcular" id="calcular">
             </div>
-
         </form>   
-
     </main>
 
     <script src="js/index.js"></script>
