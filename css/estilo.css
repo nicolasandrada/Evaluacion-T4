@@ -33,7 +33,8 @@ header{
   }
   
   form {
-      margin-left: 11cm;
+      margin: auto auto;
+      width: 500px;
       font-size: 25px;
   }
   
